@@ -1,0 +1,2 @@
+# ELCADkonfig
+Konfigurator programu ELCAD
