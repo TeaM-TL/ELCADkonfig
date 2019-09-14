@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Pomoc dla Konfig</title>
+<meta http-equiv="Content-type" CONTENT="text/html; charset=utf-8">
+</head>
+.font Helvetica
+.fontsize 10
+.forecolor black
+.backcolor #ffffd2
+.linkcolor #006800
+.buttons "back forw sep stop sep index sep find search sep inc dec"
+.h_topics .*
+.h_ignore <h4.*
+<body>
+<h2>1. Wprowadzenie</h2>
+<p>Program przeznaczony jest do zarządzania wpisami w pliku AUCOTEC.INI dotyczącymi zarządzania licencjami i kolorami tła. Ponadto umożliwia edycję pliku ELCAD_ID zawierającego numery licencji.</p>
+<h2>2. Zakładka Licencje</h2>
+<p>Zakładka pozwala na wybór rodzaju licencjonowania: licencja pływająca lub klucz sprzętowy. W przypadku wyboru licencji pływającej można określić produkt oraz moduły dodatkowe, które mają być pobierane z serwera licencji.</p>
+<p>W sekcji <b>Rodzaj licencjonowania</b> można wybrać klucz sprzętowy albo licencje pływającą. Po wybraniu licencji pływającej pozostałe sekcje w tej zakladce zostana odblokowane do edycji.</p>
+<p>Dla ułatwienia wyboru w przypadku produkty zostały podzielone na grupy i umieszczone w oddzielnych sekcjach:<ul>
+	<li>Programy - do wyboru tylko jeden program,</li>
+	<li>Moduły interfejsów - moduły wymiany rysunków w różnych formatach,</li>
+	<li>Moduły pozostałe - pozostałe moduły</li>
+</ul></p>
+<p>Należy zwrócić uwagę, by wybierać te produkty, na kóre posiadamy licencje, w przeciwnym wypadku podczas uruchamiania programu zostanie wyświetlony komnikat o niedostepnych produktach</p>
+<h2>3. Zakładka Kolory</h2>
+<p>W tej zakładce można ustalić kolorystykę edytora graficznego. Zarządzane sa pliki AUCOTEC.INI i RGB_DEF.*</p>
+<p>Przyciski:<ul>
+	<li>Kolory standardowe - przywraca domyslne stawienia</li>
+	<li>Kolory użytkownika - pozwala zdefiniować własną kolorystykę programu</li>
+	<li>version 16 - kolorystyka programu jak w wersji 1.6</li>
+	<li>version 35 - kolorystyka programu jak w wersji 3.5 - czarne tło</li>
+	<li>version 50 - kolorystyka programu jak w wersji 5.0</li>
+</ul>
+Po wybraniu przycisku <b>Kolory użytkownika</b> możemy stawić własne kolory w sekcjach: <b>Kolory standardowe</b> i <b>Kolory dodatkowe</b></p>
+<h3>4. Zakładka Edytor licencji</h3>
+<p>W tej zakładce możemy wyedytować plik <tt>ELCAD_ID</tt>.</p>
+<p>Po wybraniu pliku konfigracyjnego w oknie <b>Edycja pliku z licencjami</b> wyświetlana jest zawartość pliku <tt>ELCAD_ID</tt>.<br>
+Jeśli plik nie istniał, a wpisano numery licencyjne to zostanie on tworzony.<br>
+Należy pamiętać aby numery licencji wpisywać od poczatku wiersza. Numery możemy komentować oddzielając spacją i znakiem # komentarz od numeru, jak w przykładzie poniżej:<br>
+<tt>2C09B265DB95E47A     # ELCAD-Professional 7</tt></p>
+<h2>5. Krótka instrukcja obsługi</h2>
+<ul>
+	<li>Aby zarządzać licencjami, kolorami czy nr licencji program ELCAD musi być wyłączony.</li>
+	<li>W oknie po lewej stronie są wylistowane wszystkie znalezione przez program pliki konfiguracyjne AUCOTEC.INI. Ścieżka poszukiwań wyświetlona jest w lewym górnym pasku.</li>
+	<li>Jeśli chcemy przeszukać inną ścieżkę, to za pomocą klawisza [Wybierz] należy wybrać katalog dla poszukiwania plików konfiguracyjnych AUCOTEC.INI.</li>
+	<li>Aby przejść do trybu edycji należy wybrać jeden z plików AUCOTEC.INI wylistowanych w oknie po lewej stronie.</li>
+	<li>Po wybraniu pliku AUCOTEC.INI, możemy również w kolejnych zakładkach edytować numery licencji i kolorystykę edytora graficznego.</li>
+	<li>Zapisu zmian dokonujemy klawiszem [Zapisz]</li>
+</ul>
+<h2>6. Odnośniki</h2>
+Więcej na stronie <a href="http://www.temertech.com">http://www.temertech.com</a><br>
+Wsparcie: tlu@temertech.com
+<hr>
+<p>UTF-8, $Id: helppl.html 19 2013-01-26 22:49:24Z tlu $</p>
+</body>
+</html>

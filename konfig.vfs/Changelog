@@ -1,0 +1,40 @@
+# $Id: Changelog 16 2013-01-26 15:30:54Z tlu $
+# History:
+# 2004.02.16 TLu r. 1.0 first stable public release
+# 2004.02.18 TLu r. 1.1 shading inactive fields
+# 2004.02.19 TLu r. 1.2 support multiple directory in usr
+# 2004.02.20 TLu r. 1.3 added listbox instead radiobutton
+# 2004.02.22 TLu r. 1.3.1 fixed bugs
+# 2004.02.24 TLu r. 1.4 added file errors handling
+# 2004.02.25 TLu r. 1.5 added translations
+# 2004.03.02 TLu r. 1.6 added status
+# 2004.03.03 TLu r. 1.6.1 import procs form ::msgcat
+# 2004.04.24 TLu r. 1.7.0 processing file via ::inifile::
+# 2004.04.24 TLu r. 1.7.1 fixed some bugs
+# 2004.05.14 TLu r. 1.8.0 added themes (tile package)
+# 2004.05.14 TLu r. 1.8.1 added tabs
+# 2004.05.25 TLu r. 1.9.0 added selection of colors
+# 2005.08.   TLu r. 1.9.1 to much extension, but to much error, not published
+# 2005.02.27 TLu r. 1.9.2 improved state of widgets (normal instead active)
+# 2005.02.27 TLu r. 1.9.3 improved color background settings
+# 2005.03.06 TLu r. 1.9.4 added help button
+# 2005.04.17 TLu r. 1.9.5 full use of tile, added statusbar, possible change filename
+# 2005.04.25 TLu r. 1.9.6 fixed bug (error durig write if key not exist in INI), clear code
+# 2005.05.03 TLu r. 1.9.7 set default theme alt
+# 2005.07.22 TLu r. 1.9.8 added ELCAD_ID file editor 
+# 2005.07.22 TLu r. 1.9.9 added write color scheme
+# 2005.08.08 TLu r. 2.0.0 automaticaly load first file form list
+# 2005.08.09 TLu r. 2.0.1 better look like
+# 2006.01.02 TLu r. 2.0.2 tile 0.72, remove -pad from widgets, alt style
+# 2006.02.26 TLu r. 2.0.3 tile 0.73, htmlBrowse instead IWidgets, added tklib
+# 2006.06.15 TLu r. 2.0.4 improved help browse, upgrade helpbrowser
+# 2006.06.25 TLu r. 2.0.5 imporoved recognition of sourcedir, splash
+# 2006.06.10 TLu r. 2.0.6 conversion crlf during saving ELCAD_ID
+# 2006.09.13 Tlu r. 3.0.0 name of products read from ini file
+# 2006.09.14 Tlu r. 3.0.1 error handling for missing section and keys in INI file
+# 2006.10.31 TLu r. 3.0.2 upgraded Tile to 0.7.8, simpler help callback
+# 2006.03.10 TLu r. 3.0.3 monospace font of license editor, new help engine
+# 2010.08.05 TLu r. 3.0.4 renamed, changed header
+# 2010.08.08 TLu r. 3.0.5 cosmetics
+# 2013.01.26 TLu r. 3.1.0 initialDir, TclTk: 8.6
+
