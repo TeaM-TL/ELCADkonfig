@@ -9,4 +9,4 @@ Konfigurator programu ELCAD, pozwala na:
  * numerami licencji
  * kolorami tła
 
-![ELCADkonfig](https://github.com/TeaM-TL/ELCADkonfig/blob/master/ELCADconfig.png)
+![ELCADkonfig](https://github.com/TeaM-TL/ELCADkonfig/blob/master/screenshots/ELCADconfig.png)
